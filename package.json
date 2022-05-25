@@ -1,0 +1,27 @@
+{
+  "name": "buoi1",
+  "version": "1.0.0",
+  "description": "Buoi 1",
+  "main": "src\\index.js",
+  "scripts": {
+    "start": "nodemon --inspect src\\index.js",
+    "watch": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Blog",
+    "NodeJS"
+  ],
+  "author": "Minh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "mongoose": "^6.3.1",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
